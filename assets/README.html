@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Gists | Do For Others First</title>
+        <title>data | Do For Others First</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 0.5.5">
@@ -19,10 +19,10 @@
     <meta name="author" content="brownman">
     
     
-    <link rel="next" href="../assets/README.html" />
+    <link rel="next" href="../assets/dynamic.html" />
     
     
-    <link rel="prev" href="../section1/README.html" />
+    <link rel="prev" href="../section2/README.html" />
     
 
         
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-github="brownman/do_for_others_first" data-level="2.1" data-basepath=".." data-revision="1404066656269">
+    <div class="book" data-github="brownman/do_for_others_first" data-level="3" data-basepath=".." data-revision="1404066656269">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -118,7 +118,7 @@
         
         
         <li>
-            <a href="https://github.com/brownman/do_for_others_first/edit/master/section2/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
+            <a href="https://github.com/brownman/do_for_others_first/edit/master/assets/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -412,7 +412,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 21.428571428571427%;min-width: 14.285714285714286%;"></div>
+        <div class="inner" style="width: 28.571428571428573%;min-width: 21.428571428571427%;"></div>
     </div>
     <div class="chapters">
     
@@ -424,7 +424,7 @@
     
         <a href="../section2/README.html" title="Gists" class="chapter done " data-progress="2.1" style="left: 21.428571428571427%;"></a>
     
-        <a href="../assets/README.html" title="data" class="chapter  new-chapter" data-progress="3" style="left: 28.571428571428573%;"></a>
+        <a href="../assets/README.html" title="data" class="chapter done new-chapter" data-progress="3" style="left: 28.571428571428573%;"></a>
     
         <a href="../assets/dynamic.html" title="dynamic" class="chapter  " data-progress="3.1" style="left: 35.714285714285715%;"></a>
     
@@ -451,72 +451,81 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_15">
+                    <section class="normal" id="section-gitbook_2">
                     
-                        <h1 id="plugins-">Plugins:</h1>
-<pre><code class="lang-bash"><span class="hljs-comment">#./SCAN_READINESS_LEVEL.sh</span>
-[ add_snippet ]
-    [info]
-    [depend]
-[ awake ]
-    [info]  awake is auto suspension
-    [depend]  pm_utils
-[ commitment ]
-    [info]  make a commitment - write it down.
-    [depend]  yad gxmessage
-[ learn_langs ]
-    [info]  play a .mp3 file <span class="hljs-keyword">for</span> learning a foreign language
-    [depend]  wget sox google-chrome-stable
-[ new_word ]
-    [info]  learn new word - edit the glossay first
-    [depend]  gxmessage
-[ optional ]
-    [info]   dialog <span class="hljs-keyword">for</span> confirmation prior to running a command
-    [depend]  zenity
-[ reminder ]
-    [info]  speak sentences from a list
-    [depend]  yad flite vim-gtk
-[ riddle ]
-    [info]  show an a bash-advance-scripting snippet
-    [depend]  abs-guide
-[ SCAN_READINESS_LEVEL ]
-    [info]  parse the readiness level of each script - soon to be a gist
-    [depend]  X
-[ screencast ]
-    [info]  screencast maker
-    [depend]  byzanz-record google-chrome
-[ sleep ]
-    [info]  delay <span class="hljs-keyword">for</span> X seconds
-    [depend]
-[ suspend ]
-    [info]           suspend the computer
-    [depend]  pm-utils
-[ translate ]
-    [info]  translate a string using google scrapping
-    [depend]  wget sox
-[ wallpaper_quote ]
-    [info]  update the desktop wallpaper
-    [depend]  imagemagic
+                        <h2 id="structure">structure</h2>
+<h1 id="logs">logs</h1>
+<pre><code class="lang-bash">/home/paretech/Downloads/<span class="hljs-keyword">do</span>_<span class="hljs-keyword">for</span>_others_first/PARSE_ME
+├── CACHE
+│   ├── sourced_1st
+│   └── sourced_cfg
+├── DYNAMIC
+│   └── quotes.txt
+├── LOG
+│   ├── <span class="hljs-number">1</span>_decide_name
+│   ├── <span class="hljs-number">1</span>_decide_name.err
+│   ├── <span class="hljs-number">2</span>_generate_list
+│   ├── <span class="hljs-number">2</span>_generate_list.err
+│   ├── <span class="hljs-number">3</span>_<span class="hljs-built_in">source</span>_them
+│   ├── <span class="hljs-number">3</span>_<span class="hljs-built_in">source</span>_them.err
+│   ├── <span class="hljs-number">4</span>_struct_dir
+│   ├── <span class="hljs-number">4</span>_struct_dir.err
+│   ├── <span class="hljs-number">5</span>_register_layout
+│   └── <span class="hljs-number">5</span>_register_layout.err
+├── OLD_TXT
+│   ├── dependencies.txt
+│   ├── ideas.yaml
+│   ├── LAYOUTS
+│   │   └── builtins.txt
+│   ├── MY_TWEETS
+│   ├── ROOM
+│   │   └── practice_time_estimation.txt
+│   ├── SHARE
+│   │   ├── big_stones.yaml
+│   │   ├── bookmarks.txt
+│   │   ├── menu_bash.txt
+│   │   ├── steps.txt
+│   │   ├── struct_dir.txt
+│   │   ├── test.txt
+│   │   └── troobleshoot.txt
+│   ├── URLS
+│   │   └── BANK
+│   │       ├── gitbook.txt
+│   │       ├── jobs.txt
+│   │       ├── openbox.txt
+│   │       ├── query.txt
+│   │       ├── TODO.txt
+│   │       ├── torrent.txt
+│   │       ├── troobleshoot.txt
+│   │       ├── wallpaper_per_desktop.txt
+│   │       └── wishes.txt
+│   ├── WIKI
+│   │   ├── BANK
+│   │   │   ├── <span class="hljs-number">17</span>_06_14
+│   │   │   │   └── paretech
+│   │   │   └── <span class="hljs-number">20</span>_06_14
+│   │   │       └── paretech
+│   │   └── TODAY -&gt; /home/paretech/Downloads/<span class="hljs-keyword">do</span>_<span class="hljs-keyword">for</span>_others_first/WIKI/BANK/<span class="hljs-number">20</span>_06_14/paretech
+│   ├── WORKSPACE -&gt; /home/paretech/Downloads/<span class="hljs-keyword">do</span>_<span class="hljs-keyword">for</span>_others_first/.config/paretech
+│   └── YAML
+│       ├── many.yaml -&gt; ../WORKSPACE/ideas.yaml
+│       └── one.yaml
+├── PID
+├── STATIC
+│   ├── menu.yaml
+│   └── suspension.txt
+└── SYMLINKS
+    ├── err -&gt; /tmp/err
+    ├── log -&gt; /tmp/log
+    ├── out -&gt; /tmp/out
+    ├── proxy -&gt; /tmp/proxy
+    ├── sourced_1st -&gt; /tmp/sourced_1st
+    ├── sourced_cfg -&gt; /tmp/sourced_cfg
+    ├── struct -&gt; /tmp/struct
+    └── trace -&gt; /tmp/trace
+
+<span class="hljs-number">21</span> directories, <span class="hljs-number">46</span> files
 </code></pre>
-<h1 id="pipes-">Pipes:</h1>
-<p>As any other &#39;.cfg&#39; files: the pipes are pre-loaded.
-it is encouraged to trigger them. they are fun,and profitable for learning new languages/updating the desktop/and more.</p>
-<p>--</p>
-<ul>
-<li><p>pipe-translate.cfg:
-<strong> input:[$lang_id,$string]
-</strong> utilize: translate.sh</p>
-</li>
-<li><p>pipe-wallpaper.cfg
-<strong> input: A text file
-</strong> output: update the wallapaper</p>
-</li>
-</ul>
-<h1 id="looping-">Looping:</h1>
-<ul>
-<li>run a list of scripts in a forever loop.</li>
-</ul>
-<p>[MORE]</p>
 
                     
                     </section>
@@ -526,10 +535,10 @@ it is encouraged to trigger them. they are fun,and profitable for learning new l
         </div>
 
         
-        <a href="../section1/README.html" class="navigation navigation-prev " aria-label="Previous page: code"><i class="fa fa-angle-left"></i></a>
+        <a href="../section2/README.html" class="navigation navigation-prev " aria-label="Previous page: Gists"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../assets/README.html" class="navigation navigation-next " aria-label="Next page: data"><i class="fa fa-angle-right"></i></a>
+        <a href="../assets/dynamic.html" class="navigation navigation-next " aria-label="Next page: dynamic"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
