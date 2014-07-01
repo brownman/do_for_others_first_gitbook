@@ -1,22 +1,19 @@
 CACHE MANIFEST
-# Revision 1404066656270
+# Revision 1404231830927
 
 CACHE:
 index.html
 assets/README.html
-assets/dynamic.html
-assets/logs.html
 assets/static.html
 measure/README.html
-measure/logging.html
-measure/readiness.html
 measure/structure.html
 product_of_the_day/README.html
-product_of_the_day/article.html
-product_of_the_day/lecture_summary.html
 product_of_the_day/mindmaps.html
+sandbox/README.html
 section1/README.html
+section1/library.html
 section2/README.html
+wishes/README.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
