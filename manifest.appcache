@@ -1,24 +1,22 @@
 CACHE MANIFEST
-# Revision 1409130670869
+# Revision 1409141502724
 
 CACHE:
 measure/structure.html
 index.html
 about_the_name.html
+anacdot.html
 audience.html
 install.html
 intro.html
-product_of_the_day/README.html
+my_products/README.html
 product_of_the_day/mindmaps.html
 products/README.html
-products/crontab-nicer.html
-products/sanity-loop.html
+riddle-tool.html
 section1/README.html
-section1/cfg.html
-section1/conf.html
+section1/available_helpers.html
+section1/readiness.html
 section2/README.html
-using_the_generator.html
-using_the_library.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
